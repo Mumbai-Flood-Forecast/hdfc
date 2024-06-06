@@ -76,10 +76,10 @@ DATABASES = {
 
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'hdfcergo',
+        'NAME': 'climatedb',
         'USER': 'climate',
         'PASSWORD': 'HDFCERGOweb2023',
-        'HOST': 'localhost',     
+        'HOST': '194.238.18.228/',     
         'PORT': '5432',
     }
 
